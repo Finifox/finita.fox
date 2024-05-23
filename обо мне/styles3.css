@@ -1,0 +1,155 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+@import url(https://fonts.googleapis.com/css?family=Cormorant+Infant:300,300italic,regular,italic,500,500italic,600,600italic,700,700italic);
+
+  .whole{
+    background-color: #E8E4DB;
+    min-height: 1000px;
+    min-width: 1920px;
+  }
+
+  .container{
+    max-width: 1920px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.header{
+    display: flex;
+   justify-content: space-between;
+    height: 100px;
+    width: 1920px;
+    background-color: #B6AF76;
+    padding-left: 627px;
+}
+.menu{
+    display: flex;
+    list-style: none;
+  
+}
+
+.menu-item{
+    margin-top: 24px;
+    margin-right: 35px;
+    text-decoration: none;
+}
+.menu-item:last-child{
+    margin-right: 0;
+}
+
+.menu-item a{
+    color: #484C27;
+    font-weight: 700;
+    font-size: 40px;
+    text-decoration: none;
+   text-align: center;
+}
+.menu-basket a{
+  text-decoration: none;
+  margin-right: 30px;
+  
+}
+.menu-buttons a{
+   text-decoration: none;
+   margin-right: 30px;  
+}
+.underhead-wall{
+  max-width: 1920px;
+}
+.about{
+  justify-content: start;
+}
+
+.about-header{
+  text-align: left;
+  margin-top: 30px;
+  margin-left: 120px;
+  font-size: 100px;
+  color: #484C27;
+  font-weight: 600
+  
+}
+.about-title{
+font-size: 64px;
+font-weight: 600;
+color: #4B261A;
+margin-left: 120px;
+margin-top: 30px;
+}
+.about-info{
+  font-size: 36px ;
+  color: #4B261A;
+  font-weight: 600;
+  margin-left: 120px;
+  margin-top: 47px;
+}
+.about-ending{
+  font-size: 36px ;
+  color: #484C27;
+  font-weight: 700;
+  margin-left: 120px;
+  margin-top: 29px;
+  margin-bottom: 96px;
+}
+
+
+.container-2 {
+  position: relative;
+  text-align: center;
+  color: #E8E4DB;
+}
+.top-left {
+  position: absolute;
+  top: 63px;
+  left: 255px;
+  font-size: 110px;
+  color: #B6AF76;
+}
+
+.top-right a{
+  position: absolute;
+  top: 63px;
+  right: 140px;
+  font-size: 110px;
+  color: #E8E4DB;
+}
+.middle-low-left a{
+  position: absolute;
+  top: 240px;
+  left: 255px;
+  font-size: 64px;
+  color: #E8E4DB;
+}
+.bottom-left a{
+  position: absolute;
+  bottom: 115px;
+  left: 255px;
+}
+.footer{
+  padding-top: 100px;
+  padding-bottom: 100px;
+  padding-left: 50px;
+
+}
+.footer-wall{
+  max-width: 1920px;
+}
+.footer-title{
+color: #E8E4DB;
+font-size: 110px;
+font-weight: 600;
+justify-content: space-between;
+}
+.footer-title a{
+  text-decoration: none;
+  color: #B6AF76;
+}
+.footer-number{
+  font-size: 64px;
+  color: #DDC7BD;
+  margin-top: 50px;
+  display: flex;
+}

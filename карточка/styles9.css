@@ -1,0 +1,114 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+@import url(https://fonts.googleapis.com/css?family=Cormorant+Infant:300,300italic,regular,italic,500,500italic,600,600italic,700,700italic);
+
+  .whole{
+    background-color: #E8E4DB;
+     min-width: 1920px;
+     min-height: 1000px;
+  }
+
+  .container{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1920px;
+    
+}
+
+.header{
+    display: flex;
+   justify-content: space-between;
+    height: 100px;
+    width: 1920px;
+    background-color: #E8E4DB;
+    padding-top: 30px;
+    
+}
+.header-back a{
+    justify-content: space-between;
+    padding-left: 50px;
+
+}
+.back{
+    display: flex;
+   
+    
+}
+.header-back-arrow {
+  display: flex;
+  padding-top: 10px;
+  
+  
+}
+.header-back-title a{
+text-decoration: none;
+font-size: 30px ;
+font-weight: 600;
+color: #4B261A;
+padding-right: 1550px;
+
+}
+.header-out a{
+    color: #4B261A;
+    display: flex;
+    align-items: end;
+    padding-right: 30px;
+}
+.posts{
+    justify-content: start;
+    display: flex;
+    padding-left: 74px;
+}
+.post-info{
+    padding-left: 65px;
+}
+.post-title{
+    font-size: 48px;
+    color: #4B261A;
+    font-weight: 600;
+    
+}
+.post-price{
+    color: #B6AF76;
+    font-size: 48px;
+    padding-top: 20px;
+}
+
+.post-basket a{
+    background-color: #484C27;
+    text-decoration: none;
+    margin-top: 20px;
+    display: block;
+    background-color: #484C27;
+    padding: 17px 20px;
+    max-width: 280px;
+    border-radius: 20px;
+
+    
+    font-weight: 300;
+    color: #B6AF76;
+    font-size: 20px;
+    text-align: center;
+}
+.post-discr{
+    font-size: 25px;
+    color: #4B261A;
+    padding-top: 20px;
+    font-weight: 600;
+}
+
+.post-text{
+    display: flex;
+align-items: center;
+font-size: 25px;
+color: #21243d;
+padding-top: 15px;
+color: #4B261A;
+}
+.text{
+    margin-left: 10px;
+}
